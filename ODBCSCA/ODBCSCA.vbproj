@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{4046DBCE-19A0-4A18-B2FE-2E0DDC2CF394}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>ODBCSCA.Module1</StartupObject>
+    <StartupObject>ODBCSCA.Principal</StartupObject>
     <RootNamespace>ODBCSCA</RootNamespace>
     <AssemblyName>ODBCSCA</AssemblyName>
     <MyType>Console</MyType>
@@ -45,7 +45,6 @@
     <Import Include="System.Diagnostics" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
